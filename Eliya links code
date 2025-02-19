@@ -9,7 +9,7 @@
         body {
             text-align: center;
             font-family: Arial, sans-serif;
-            background: repeating-linear-gradient(45deg, #ffb6c1, #ffb6c1 20px, #ffffff 20px, #ffffff 40px);
+            background: repeating-linear-gradient(45deg, #ff0000, #ff0000 20px, #000000 20px, #000000 40px); /* שחור ואדום */
             color: white;
             height: 100vh;
             display: flex;
@@ -68,7 +68,7 @@
 <body>
 
     <!-- תמונת פרופיל בעיגול -->
-    <img src="https://images.app.goo.gl/etfjCBRpobz58MtF8" alt="Profile Picture" class="profile-pic">
+    <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Batman-smiles-like-a-Wolf.jpg?q=50&fit=crop&w=480&h=&dpr=1.5" alt="Profile Picture" class="profile-pic">
 
     <h1>Eliya F</h1>
 
