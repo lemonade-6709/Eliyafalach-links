@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliya F - Links</title>
+    <style>
+        /* עיצוב הרקע עם קווים אלכסוניים */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: repeating-linear-gradient(45deg, #ffb6c1, #ffb6c1 20px, #ffffff 20px, #ffffff 40px);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* עיצוב התמונה העגולה */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            color: white; /* השארת השם למעלה בלבן */
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            padding: 12px;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            border: 2px solid white;
+            border-radius: 8px;
+            text-decoration: none;
+            color: black; /* שינוי צבע הטקסט לכפתורים לשחור */
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- תמונת פרופיל בעיגול -->
+    <img src="https://images.app.goo.gl/etfjCBRpobz58MtF8" alt="Profile Picture" class="profile-pic">
+
+    <h1>Eliya F</h1>
+
+    <a href="https://discord.gg/P7rranxS" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg" alt="Discord Logo">
+        Join My Discord
+    </a>
+
+    <a href="https://www.youtube.com/@Eliyafalach" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+        Subscribe on YouTube
+    </a>
+
+    <a href="https://www.instagram.com/eliyafalach?igsh=MTZoYmRtN2J6bHE3OA%3D%3D&utm_source=qr" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        Follow Me on Instagram
+    </a>
+
+</body>
+</html>
