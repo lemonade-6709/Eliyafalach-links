@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliya F - Links</title>
     <style>
-        /* עיצוב הרקע עם קווים אלכסוניים */
+        /* עיצוב הרקע עם GIF של ים בלופ */
         body {
             text-align: center;
             font-family: Arial, sans-serif;
-            background: repeating-linear-gradient(45deg, #ff0000, #ff0000 20px, #000000 20px, #000000 40px); /* שחור ואדום */
+            background: url('https://media1.giphy.com/media/798oH0WDEQnicM4857/giphy.gif?cid=6c09b952gqge6shk9trkcvp2oeexxeg27qdg265mcp02tjh2&ep=v1_gifs_search&rid=giphy.gif&ct=g') no-repeat center center fixed;
+            background-size: cover;
             color: white;
             height: 100vh;
             display: flex;
